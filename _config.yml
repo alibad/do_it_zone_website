@@ -22,7 +22,7 @@ title: Do It Zone
 email: ali@humanquest.net
 description: >- # this means to ignore newlines until "baseurl:"
   Your ultimate app for setting and achieving goals.
-baseurl: "/do_it_zone" # the subpath of your site, e.g. /blog
+baseurl: "/do_it_zone_website" # the subpath of your site, e.g. /blog
 url: "https://alibad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alibad
 github_username:  alibad
