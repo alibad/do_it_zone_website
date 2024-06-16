@@ -5,31 +5,54 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 header {
-    background-color: #4CAF50;
+    background-color: #0f2634;
     color: white;
     padding: 1em;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 1em;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 main {
     padding: 2em;
     text-align: center;
 }
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 footer {
-    background-color: #333;
+    background-color: #d5dfe0;
     color: white;
     text-align: center;
     padding: 1em;
+}
+
+footer a {
+    color: #ff9800;
+    margin: 0 1em;
+}
+
+footer a:hover {
+    color: #e68900;
 }
