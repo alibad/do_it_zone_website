@@ -18,7 +18,7 @@ Your ultimate app for setting and achieving goals.
 
 Stay on track with inspirational messages and content.
 
-![Motivational Image](assets/images/motivation.jpg)
+![Motivational Image](assets/images/do_it.png)
 
 ## Download the App
 
