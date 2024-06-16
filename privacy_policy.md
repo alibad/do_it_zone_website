@@ -27,5 +27,3 @@ Do It Zone ("we", "us", "our") is committed to protecting your privacy. This Pri
 
 ## Contact Us
 If you have any questions or concerns about this Privacy Policy, please contact us at info@humanquest.net.
-
-Human Quest

@@ -16,4 +16,3 @@ If you have any questions, issues, or need assistance with Do It Zone, please co
 
 ### How do I report a bug?
 If you encounter a bug, please report it by emailing [info@humanquest.net](mailto:info@humanquest.net) with a detailed description of the issue.
-

@@ -4,23 +4,42 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     background-color: #0f2634;
     color: white;
     padding: 1em;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-left: auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 1em;
+    margin-left: 1em;
 }
 
 nav ul li a {
@@ -31,21 +50,44 @@ nav ul li a {
 main {
     padding: 2em;
     text-align: center;
+    flex: 1;
+}
+
+section {
+    margin: 2em 0; /* Add vertical spacing between sections */
+}
+
+h1, h2, h3 {
+    text-align: left;
+    max-width: 600px;
+    margin: 30px auto;
+    margin-bottom: 0.5em; /* Add some spacing below headers */
+}
+
+p, ul, li {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1em; /* Add some spacing below paragraphs and list items */
 }
 
 ul {
     list-style-type: disc;
     padding-left: 20px;
-    text-align: left;
-    margin: 0 auto;
-    max-width: 600px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
     background-color: #d5dfe0;
-    color: white;
+    color: #333;
     text-align: center;
     padding: 1em;
+    margin-top: auto; /* Ensure footer is at the bottom */
+    width: 100%; /* Ensure the footer spans the full width of the page */
+    box-sizing: border-box;
 }
 
 footer a {

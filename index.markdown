@@ -3,22 +3,31 @@ layout: default
 title: Home
 ---
 
-# Welcome to Do It Zone!
-Your ultimate app for setting and achieving goals.
+<section>
+<h1>Welcome to Do It Zone!</h1>
+<p>Your ultimate app for setting and achieving goals.</p>
+</section>
 
-[Download Now](#download)
+<section>
+<h2>Features</h2>
+<ul>
+  <li>Create and manage goals, tasks, and subtasks.</li>
+  <li>AI assistant to help you break down and achieve goals.</li>
+  <li>Chat and voice interface for interaction.</li>
+  <li>Motivational messages and progress tracking.</li>
+</ul>
+</section>
 
-## Features
-- Create and manage goals, tasks, and subtasks.
-- AI assistant to help you break down and achieve goals.
-- Chat and voice interface for interaction.
-- Motivational messages and progress tracking.
+<section>
+<h2>Get Motivated</h2>
+<p>Stay on track with inspirational messages and content.</p>
+<img src="assets/images/motivation.jpg" alt="Motivational Image">
+</section>
 
-## Get Motivated
-Stay on track with inspirational messages and content.
-
-![Motivational Image](assets/images/motivation.jpg)
-
-## Download the App
-- [Android](https://play.google.com/store/apps/details?id=com.humanquest.doItZone)
-- [iOS](https://apps.apple.com/us/app/do-it-zone/id123456789)
+<section>
+<h2>Download the App</h2>
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=com.humanquest.doItZone">Android</a></li>
+  <li><a href="https://apps.apple.com/us/app/do-it-zone/id123456789">iOS</a></li>
+</ul>
+</section>

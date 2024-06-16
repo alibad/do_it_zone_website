@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - Do It Zone</title>
     <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 </head>
 <body>
     <header>
+        <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Do It Zone Logo">
         <h1>Do It Zone</h1>
         <nav>
             <ul>
@@ -17,11 +19,13 @@
             </ul>
         </nav>
     </header>
+
     <main>
         {{ content }}
     </main>
+
     <footer>
-        <p>&copy; 2024 Do It Zone. All rights reserved.</p>
+        &copy; 2024 Do It Zone. All rights reserved.
     </footer>
 </body>
 </html>
