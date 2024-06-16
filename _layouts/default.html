@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Do It Zone</title>
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>Do It Zone</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relative_url }}">Home</a></li>
+                <li><a href="{{ "/privacy_policy" | relative_url }}">Privacy Policy</a></li>
+                <li><a href="{{ "/support" | relative_url }}">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; 2024 Do It Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
