@@ -22,5 +22,6 @@ Stay on track with inspirational messages and content.
 
 ## Download the App
 
+- [Web](https://do-it-zone.web.app/)
 - [Android](https://play.google.com/store/apps/details?id=com.humanquest.doItZone)
 - [iOS](https://apps.apple.com/us/app/do-it-zone/id123456789)
